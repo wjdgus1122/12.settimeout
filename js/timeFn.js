@@ -22,17 +22,8 @@
 
     // setTimeout(handleTime, 2000);
 
-    const btn = document.querySelector('button')
-    const msg = document.querySelector('.msg_box')
-
-    const handelbtn = () => {
-        msg.classList.add('on')
-
-        setTimeout(() => {
-            msg.classList.remove('on')
-        }, 1500);
-    }
-
-    btn.addEventListener('click', handelbtn)
+    // setInterval(() => {
+    //     document.write('2초마다 계속 실행됨')
+    // }, 2000);
 
 })()//end
